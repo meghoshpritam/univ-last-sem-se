@@ -43,6 +43,12 @@ python version 3.8.10
 ### packages
 
 ```bash
+# run if got error: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+sudo apt-get install python3-tk
+```
+
+```bash
 pip install pytest
+pip install matplotlib
 
 ```
