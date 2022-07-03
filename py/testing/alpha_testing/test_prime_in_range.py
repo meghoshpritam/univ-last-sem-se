@@ -1,4 +1,5 @@
 from prime_in_range import prime_numbers_in_range
+import pytest
 
 
 def test_prime_number_in_range_1_10():
@@ -28,3 +29,11 @@ def test_prime_number_in_neg_10_to_10():
     expected = [2, 3, 5, 7]
 
     assert expected == result
+
+
+def test_throw_error_if_pass_string_as_arg():
+    lower = "1"
+    upper = 10
+
+    with pytest.raises(TypeError):
+        prime_numbers_in_range(lower, upper)
