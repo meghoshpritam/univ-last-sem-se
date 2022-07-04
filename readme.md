@@ -52,3 +52,18 @@ pip install pytest
 pip install matplotlib
 
 ```
+
+
+### Run pytest file
+
+```
+# Linux
+python3 -m pytest test_fileName.py -v # if you wish to run a single test file
+python3 -m pytest directoryLocation -v # if you wish to run all the test file in a directory
+```
+
+```
+# Windows
+pyWindows test_fileName.py -v # if you wish to run a single test file
+pytest directoryLocation -v # if you wish to run all the test file in a directory
+```
