@@ -53,8 +53,16 @@ pip install matplotlib
 
 ```
 
-
 ### Run pytest file
+
+```
+# Check python version
+python --version
+
+# Check PIP version
+pip --version
+```
+
 
 ```
 # Linux
