@@ -1,0 +1,8 @@
+k=float(input("enter area under the curve(k):"))
+td=float(input("enter the maximum value of curve(td):"))
+t=float(input("Enter effort time(t) in month :"))
+p=2*(pow(td,2))
+q=pow(t,2)
+r=pow(2.7182,(-q/p))
+E=((k/pow(td,2))*t*r)
+print("E=",E,"PM")
